@@ -1,0 +1,20 @@
+header {
+  clip-path: ellipse(77% 61% at 50% 39%);
+
+}
+
+
+.header {
+  //color: rgb(205, 112, 50);
+  color: white;
+  height: 60vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  &__title {
+    text-transform: uppercase;
+    letter-spacing: 5px;
+  }
+}

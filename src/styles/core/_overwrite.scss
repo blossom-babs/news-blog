@@ -1,0 +1,18 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.ent {
+  @media (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+}
