@@ -11,7 +11,7 @@ const Health = () => {
   useEffect(() => {
     const newsItems = async () => {
       const response = await axios({
-        url: `https://newsapi.org/v2/top-headlines?category=health&apiKey=${MY_KEY}`,
+        url: `https://newsapi.org/v2/top-headlines?category=health&apiKey=aae2e42ffb5b44bda5856cdbb6abcca6`,
         method: "GET",
       });
       //console.log(response);

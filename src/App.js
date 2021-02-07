@@ -16,7 +16,7 @@ function App() {
   useEffect(() => {
     const newsItems = async () => {
       const response = await axios({
-        url: `https://newsapi.org/v2/top-headlines?country=ng&apiKey=${MY_KEY}`,
+        url: `https://newsapi.org/v2/top-headlines?country=ng&apiKey=aae2e42ffb5b44bda5856cdbb6abcca6`,
         method: "GET",
       });
       setNigeriaNews(response.data.articles);
